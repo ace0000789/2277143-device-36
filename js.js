@@ -5,7 +5,6 @@ let modalPlus = document.querySelector('.max-product')
 let modalMinus = document.querySelector('.min-product')
 let input = document.querySelector('.input-numder')
 
-console.log(input.value);
 linkDelivery.addEventListener('click', function () {
     modal.classList.remove('modal-container-close');
 });
