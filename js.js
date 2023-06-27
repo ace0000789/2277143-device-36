@@ -9,3 +9,9 @@ linkDelivery.addEventListener('click', function () {
 modalClose.addEventListener('click', function () {
   modal.classList.add('modal-container-close');
 });
+
+document.addEventListener('keydown', function(evt) {
+  if (evt.keyCode === 27) {
+    modal.classList.add('modal-container-close');
+    }
+});
