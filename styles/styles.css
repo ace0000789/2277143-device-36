@@ -317,7 +317,7 @@ body {
   width: 496px;
   margin: 0;
   padding: 0;
-  list-style: none; 
+  list-style: none;
   align-items: center;
 }
 
@@ -2149,7 +2149,7 @@ body {
   opacity: 0.1;
 }
 
-.bluetooth-input[type="radio"]:checked + .control-mark::before {
+.bluetooth-input[type="radio"]:checked {
   position: absolute;
   content: "";
   top: 50%;
